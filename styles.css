@@ -1,0 +1,16 @@
+/* CSS by Hannah Groves */
+/* Color palette
+#41151C
+#D3BBAF
+#FFFAE0
+#DFBED3
+#BEB37D
+*/
+
+body {
+    background-color: #FFFAE0;
+    font-family: 'Arial', sans-serif;
+    color: #41151C;
+    margin: 0;
+    padding: 0;
+}

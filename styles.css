@@ -1,16 +1,64 @@
-/* CSS by Hannah Groves */
+/* CSS written by Hannah Groves*/
+/* GLOBAL STYLES (MOBILE FIRST)*/
 /* Color palette
 #41151C
 #D3BBAF
 #FFFAE0
-#DFBED3
+#fad5cc
 #BEB37D
 */
+
+* {
+    margin: 0;
+    padding: 0; 
+}
 
 body {
     background-color: #FFFAE0;
     font-family: 'Arial', sans-serif;
     color: #41151C;
-    margin: 0;
-    padding: 0;
+    text-align: center;
 }
+
+header {
+    background-image: url('assets/plum.jpg');
+    background-size: 100%;
+    background-position:center;
+    padding: 4rem;
+}
+
+nav, footer {
+    background-color: #BEB37D;
+    padding: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  font-size: 1.5em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #41151C;
+  background-color: #fad5cc;
+  width: auto;
+  display: block;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+h2 {
+    padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+section {
+    padding: 0.5rem;
+    border-bottom: 5px solid #41151C;
+}
+
+section p {
+    padding: 1rem;
+    margin: 1rem;
+}
+

@@ -13,11 +13,19 @@
     padding: 0; 
 }
 
-@font-face {
-    font-family: 'Fayette'; 
-    src: url('assets/fayette.ttf'); 
-    /*learned adding fonts at https://stackoverflow.com/questions/12144000/using-custom-fonts-using-css*/
+.tangerine-regular {
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
+
+.tangerine-bold {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+    /*learned adding fonts at https://stackoverflow.com/questions/12144000/using-custom-fonts-using-css*/
+
 
 body {
     display: grid;
@@ -36,7 +44,7 @@ header {
 
 h1{
   font-size: 6em;
-  font-family: 'Fayette';
+  font-family: 'Tangerine', cursive;
   color: #FFFAE0;
   text-shadow: 3px 3px 2px #41151C;
 }
